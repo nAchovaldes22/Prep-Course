@@ -63,7 +63,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x = y) {
+  if (x === y) {
     return true;
   } else {
     return false;
@@ -184,7 +184,7 @@ function esPositivo(numero) {
     return "Es positivo";
   }
   else {
-    return "Es negativo"
+    return "Es negativo";
   }
 }
 function agregarSimboloExclamacion(str) {
@@ -293,4 +293,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
- }
+ };
